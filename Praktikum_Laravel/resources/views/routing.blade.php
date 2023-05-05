@@ -34,18 +34,38 @@
                 Route Priority
             <a href="{{ url('/asdqwezxc') }}" class="list-group-item list-group-item-action">
                 Fallback Routes
+                </a>
+            </div>
 
-            {{-- <h6 class="mt-4">Route Groups (Route Prefixes & Route Name Prefixes)</h6> --}}
-            {{-- <div class="list-group list-group-numbered mt-4"> --}}
+            <h6 class="mt-4">Route Groups (Route Prefixes & Route Name Prefixes)</h6>
+            <div class="list-group list-group-numbered mt-4">
                 <a href="{{ route('admin.dashboard') }}" class="list-group-item list-group-item-action">
-                    Admin Dashboard
+                        Admin Dashboard
                 </a>
                 <a href="{{ route('admin.users') }}" class="list-group-item list-group-item-action">
-                    Admin Users
+                        Admin Users
                 </a>
                 <a href="{{ route('admin.items') }}" class="list-group-item list-group-item-action">
-                    Admin Items
-        </div>
+                        Admin Items
+                </a>
+            </div>
+
+            <h6 class="mt-4">View Route List</h6>
+            <div class="list-group">
+                <a href="" class="list-group-item list-group-item-action">
+                    php artisan:list
+            </a>
+            </div>
+
+            <h6 class="mt-4">Route Caching</h6>
+            <div class="list-group">
+                <a href="" class="list-group-item list-group-item-action">
+                    php artisan route:cache
+            </a>
+                <a href="" class="list-group-item list-group-item-action">
+                    php artisan route:clear
+            </a>
+            </div>
     </div>
     @vite('resources/js/app.js')
 </a>
